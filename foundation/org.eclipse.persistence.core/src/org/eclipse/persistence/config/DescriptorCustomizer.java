@@ -29,7 +29,7 @@ public interface DescriptorCustomizer {
 
     /**
      * Customize the provided descriptor. This method is called after the
-     * descriptor is populated form annotations/XML/defaults but before it is
+     * descriptor is populated from annotations/XML/defaults but before it is
      * initialized.
      */
     public void customize(ClassDescriptor descriptor) throws Exception;
